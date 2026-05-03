@@ -1,0 +1,12 @@
+[package]
+name = "rust_book"
+version = "0.1.0"
+edition = "2024"
+
+[workspace]
+
+members = [
+    "chapter-1/hello_cargo",
+    "chapter-2/guessing_game",
+    "chapter-3",
+]
